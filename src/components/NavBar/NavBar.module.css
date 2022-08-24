@@ -1,0 +1,52 @@
+.str {
+  list-style-type: none;
+}
+.str :hover{
+  color: #FF9846;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-left: 35px;
+    margin-right: 60px;
+  
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 26px;
+  }
+  h2{
+    margin-left: 25px;
+    margin-top: 0;
+    font-size: 25px;
+  }
+  
+  .line{
+    width: 180px;
+    border-bottom: 1px solid grey;
+  }
+  .menuBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 570px;
+    width: 170px; 
+    margin-top: 31px;
+    margin-left: 60px;
+  }
+  .pizza {
+    width: 30px;
+    height: 27.77px;
+    margin-right: 20px;
+  }
+  .text {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-top: 3px;
+    font-weight: 400;
+  }

@@ -1,0 +1,94 @@
+.header{
+    height: 95px;
+    width: 1170px;
+    display: flex;
+    border-bottom: 1px solid rgb(193, 183, 183);
+    background-color: #F2F2F2;
+}
+  .phone{
+    height: 95px;
+    width: 220px;
+    border-right: 0.5px solid rgb(193, 183, 183);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 18px;
+}
+.ourPhone{
+  font-weight: bold;
+}
+.number{
+  color: #FF9846;
+  font-weight: 500;
+}
+.work{
+  display: flex;
+}
+
+.time{
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.timeWork{
+  color: #A4ACAD;
+  font-size: 14px;
+}
+
+.contact{
+  display: flex;
+}
+
+.delivery{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 13px;
+  height: 95px;
+}
+.city{
+  font-weight: 300;
+font-size: 14px;
+color: #A4ACAD;
+margin-bottom: 0px;
+}
+.cityName{
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#reviews{
+height: 95px;
+margin-top: 39px;
+font-size: 18px;
+font-weight: 400;
+}
+
+.deliveryPay{
+  margin-left: 15px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px; 
+font-size: 18px;
+font-weight: 400;
+color: #FF9846;
+}
+
+p {
+  margin: 0;
+}
+
+.search{
+  width: 30px;
+  height: 30px;
+}

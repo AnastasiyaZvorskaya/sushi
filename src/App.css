@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+  margin-left: 105px;
+  margin-right: 26px;
+
+}
+
+.basic {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 1170px;
+  background-color: #F2F2F2;
+}
+
+
