@@ -11,6 +11,7 @@ import soups from '../Img/супы.png';
 import cornDogs from '../Img/корн.png';
 import beverages from '../Img/напитки.png';
 import sale from '../Img/sale.png';
+import { NavLink } from 'react-router-dom';
 
 
 const NavBar = () => {
@@ -25,44 +26,44 @@ const NavBar = () => {
                 <div class={s.menuBar}>
                       <li className={s.str}>
                             <img className={s.pizza} src={pizza} alt="pizza" />
-                            <a className={s.text} href="/">Пицца</a>
+                            <NavLink className={s.text} to="/">Пицца</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={sets} alt="set" />
-                            <a className={s.text} href="set">Сеты</a>
+                            <NavLink className={s.text} to="set">Сеты</NavLink>
 
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={wok} alt="set" />
-                            <a className={s.text} href="/wok">WOK</a>
+                            <NavLink className={s.text} to="/wok">WOK</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={rolls} alt="set" />
-                            <a className={s.text} href="/rolls">Роллы</a>
+                            <NavLink className={s.text} to="/rolls">Роллы</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={sushi} alt="set" />
-                            <a className={s.text} href="/sushi">Суши</a>
+                            <NavLink className={s.text} to="/sushi">Суши</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={salads} alt="set" />
-                            <a className={s.text} href="/salads">Салаты</a>
+                            <NavLink className={s.text} to="/salads">Салаты</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={soups} alt="set" />
-                            <a className={s.text} href="/salads">Супы</a>
+                            <NavLink className={s.text} to="/salads">Супы</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={cornDogs} alt="set" />
-                            <a className={s.text} href="/salads">Корн доги</a>
+                            <NavLink className={s.text} to="/salads">Корн доги</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={beverages} alt="set" />
-                            <a className={s.text} href="/salads">Напитки</a>
+                            <NavLink className={s.text} to="/salads">Напитки</NavLink>
                         </li>
                         <li className={s.str}>
                             <img className={s.pizza} src={sale} alt="set" />
-                            <a className={s.text} href="/sale">Акции</a>
+                            <NavLink className={s.text} to="/sale">Акции</NavLink>
                         </li>
                     </div> 
             </ul >
@@ -75,4 +76,6 @@ const NavBar = () => {
 
 
 export default NavBar;
+
+
 
