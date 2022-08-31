@@ -42,7 +42,7 @@ color: #F46D40;
 }
 
 .footer{
-    display: flex;
+  display: flex;
     width: 950px;
     height: 269px;
     background-color: #F2F2F2;
@@ -72,12 +72,18 @@ color: #F46D40;
     margin-top: 22px;
   }
   
-  
+
   .textLeft{
+    text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
   }
+  .textLeft:hover{
+    color: #F46D40;
+  } 
   
   .textRight{
     font-size: 18px;
@@ -136,4 +142,3 @@ color: #F46D40;
     height: 34px;
   
   }
-  
