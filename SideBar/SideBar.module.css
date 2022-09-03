@@ -1,0 +1,44 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 140px;
+    margin-left: 40px;
+    margin-top: 55px;
+    background-color: #F2F2F2;;
+    border-radius: 5px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: center;
+  }
+  #shoppingCart{
+    color: #a4acad;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .free{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F2F2F2;
+    background-color: #FF9846;
+    margin-top: 26px;
+    text-align: center;
+    line-height: 40px;
+    width: 290px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .maps{
+    width: 290px;
+    margin-top: 20px;
+    padding: 1px;
+     box-shadow: 0 0 10px 5px rgb(168, 167, 167);
+  }
