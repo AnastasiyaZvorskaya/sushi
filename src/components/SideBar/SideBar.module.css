@@ -1,5 +1,6 @@
 .sideBar {
     display: flex;
+    flex-direction: column;
     width: 290px;
     height: 140px;
     margin-left: 40px;
@@ -10,7 +11,6 @@
   h2 {
     font-size: 24px;
     font-weight: 500;
-    /* margin-left: 30px; */
     margin-top: 12px;
     text-align: center;
   }
@@ -34,4 +34,11 @@
     height: 40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+
+  .maps{
+    width: 290px;
+    margin-top: 20px;
+    padding: 1px;
+     box-shadow: 0 0 10px 5px rgb(168, 167, 167);
   }
