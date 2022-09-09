@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Header.module.css';
 import time from '../Img/часы.png'
 import search from '../Img/search.png'
+import { NavLink } from 'react-bootstrap';
 
 const Header = () => {
   return <header className={s.header}>
@@ -19,9 +20,10 @@ const Header = () => {
         <div className={s.place}>
           <p className={s.city}>Город</p><p className={s.cityName}>Бишкек</p>
         </div>
-        <div id={s.reviews}>отзывы</div>
+        <NavLink to="#" id={s.reviews}>отзывы</NavLink>
       </div>
-      <div className={s.deliveryPay}><p>доставка и оплата</p>
+      <div className={s.deliveryPay}>
+        <NavLink to="#">доставка и оплата</NavLink>
         <img className={s.search} src={search} alt="search" />
       </div>
     </div>
